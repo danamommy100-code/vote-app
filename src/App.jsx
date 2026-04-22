@@ -60,8 +60,8 @@ function Home({ onAdmin, onJoin }) {
     <div style={s.page}>
       <div style={{ textAlign: "center", marginBottom: 48 }}>
         <div style={{ fontSize: 52, marginBottom: 12 }}>🏷️</div>
-        <h1 style={{ fontSize: 26, fontWeight: 800, color: "#111", marginBottom: 6 }}>품평회 시스템</h1>
-        <p style={{ color: "#999", fontSize: 14 }}>실시간 현장 디자인 투표 플랫폼</p>
+        <h1 style={{ fontSize: 26, fontWeight: 800, color: "#111", marginBottom: 6 }}>알레르망 품평회</h1>
+        <p style={{ color: "#999", fontSize: 14 }}>실시간 현장 투표</p>
       </div>
       <button style={s.btnPrimary} onClick={() => setShowPw(true)}>⚙️ 관리자 입장</button>
       <button style={{ ...s.btnOutline, marginTop: 12 }} onClick={onJoin}>📱 참여자 입장</button>
